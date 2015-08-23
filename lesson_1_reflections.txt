@@ -1,0 +1,78 @@
+How did viewing a diff between two versions of a
+file help you see the bug that was introduced?
+
+	When differences were layed out next to each
+	other, spotting the difference was a
+	no-brainer.
+
+How could having easy access to the entire
+history of a file make you a more efficient
+programmer in the long term?
+
+	When developing a complex programme, the mind
+	is constantly trying to create an efficient
+	way to solve a problem, that means code
+	evolves and as 'to err is human', mishaps are
+	expected.
+	
+	History of files, is helpful here so that
+	previous code can be revisited and reused.
+	
+	Also at times one feels like experimenting
+	with a new idea that requires changing the
+	code a lot.
+	Reviewing the evolution of the code helps
+	recall the programme development flow and
+	essentially what were the programmer's
+	thought processes for writing specific code
+	for that given version.
+	A file History helps to	avoid losing
+	important work done in the past, and allows
+	reuse and review, when ever needed.
+
+What do you think are the pros and cons of
+manually choosing when to create a commit, like
+you do in Git, vs having versions automatically
+saved, like Google Docs does?
+	
+	Auto commit could clutter the file history,
+	that is if auto save is scheduled after short
+	time intervals, making it difficult to go
+	back and search	for a certain previous
+	version. This could be avoided if time
+	interval between auto saves is increased, say
+	half an hour, but then the file author still
+	could lose some work if say an auto save
+	occurred in the middle work, this would have
+	high chances of a file version saved with
+	incomplete work. And if need arises that a
+	previous version of a file needs to be
+	recovered, only to find out that it was
+	not whole, it would cause some headache.
+	One more problem caused by auto saved could
+	be that there would be no logical pattern to
+	the versions, thus this could cause
+	confusion.
+
+How can you use the commands git log and git diff
+to view the history of files?
+
+	using log, the all the versions in of the
+	file are displayed, each along their ID.
+	To view changes between two files we can
+	use diff and the IDs of the files to view
+	any changes between the two versions of
+	the file.
+
+How might using version control make you more
+confident to make changes that could break
+something?
+
+	With version control, one can make changes
+	to a file without fear of messing anything
+	up, as any changes that have to be saved to
+	the repository have to be committed. If some
+	thing is not in working order, then the
+	history of the file can be used to restore to
+	older version of that file, or simply diff
+	between two versions can reveal any changes.
