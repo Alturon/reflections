@@ -43,3 +43,16 @@ structure?
 	the whole set-up helps in quickly deciphering
 	the	whole structure. Explaining branches is
 	way easier this way.
+
+What is the result of merging two branches
+together? Why do we represent it in the diagram
+the way we do?
+	
+	The result of the merger is that the contents
+	of the two files are merged together into one
+	file. The new files not only contains
+	additions and subtractions of contents from
+	to the original two files, referred to their
+	common parent. Thus in the diagram there is
+	a deviation from their common parent and then
+	an intersection at the merger.
