@@ -56,3 +56,18 @@ the way we do?
 	common parent. Thus in the diagram there is
 	a deviation from their common parent and then
 	an intersection at the merger.
+	
+What are the pros and cons of Git’s automatic
+merging vs. always doing merges manually?
+
+	It helps avoid manual task of merging, as
+	that requires manual lookup at, copying from
+	and pasting to the right places properly.
+	So not only it reduces the work load, but
+	does tasks in a quite efficient manner.
+	
+	Though there are some cases where automatic
+	merging is unable to function properly.
+	Usually git prompts the user of the conflict,
+	so that they may intervene and fix it; though
+	even this is helpful.
