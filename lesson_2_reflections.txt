@@ -33,3 +33,13 @@ How would branches help?
 		  easy-mode and coins branches were
 		  created so as to keep these two new
 		  ideas separate from the main concept.
+
+How do the diagrams help you visualize the branch
+structure?
+
+	Each commit points to its parent commit,
+	until the earliest commit in the repository
+	history. Easy said, but having a visual of
+	the whole set-up helps in quickly deciphering
+	the	whole structure. Explaining branches is
+	way easier this way.
