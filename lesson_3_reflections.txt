@@ -34,3 +34,22 @@ stay up-to-date with your remote repository?
 	branches, but then that won't be possible.
 	(Note [Disclaimer]: my opinions, I could be
 	wrong.)
+	
+Describe the differences between forks, clones,
+and branches. When would you use one instead of
+another?
+	
+	Forks: use on github repositories, when I
+	want to create a branch off it, possibly
+	due to not being a collaborator, and still
+	have github host my version of the
+	repository.
+	
+	Clones: use on (local and github)
+	repositories to create local copies of them.
+	
+	Branches: use on any existing commit, to
+	create modified versions for possibly
+	experimentation, though the intent maybe to
+	merge the branch back again with the parent,
+	branch or any other.
