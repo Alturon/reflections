@@ -11,3 +11,26 @@ rather than keeping all your work local?
 	public remote repository can help in sharing
 	and collaborating with others on your
 	project.
+
+Why might you want to always pull changes
+manually rather than having Git automatically
+stay up-to-date with your remote repository?
+
+	To perform the pull command the user has to
+	stop their work and then perform the desired
+	pull request, the manual intervention is so
+	that the user is aware of the file contents
+	that are present locally. If an auto pull
+	were to occur, the user may not be aware that
+	a branch has been updated, and for example,
+	if the master branch was updated then it may
+	have new commits that the local machine did
+	not, thus after an auto pull the user working
+	on the local repository may perform a commit
+	that essentially is trying to update the
+	master branch, but unbeknownst to the user,
+	there are already new commits. It will be as
+	if we were trying to create two master
+	branches, but then that won't be possible.
+	(Note [Disclaimer]: my opinions, I could be
+	wrong.)
