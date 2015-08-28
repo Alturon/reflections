@@ -53,3 +53,13 @@ another?
 	experimentation, though the intent maybe to
 	merge the branch back again with the parent,
 	branch or any other.
+
+What is the benefit of having a copy of the last
+known state of the remote stored locally?
+
+	It helps in informing of how many commits
+	ahead are we from the last commit pushed to
+	the remote repository. This way we can be
+	aware of if any commits that haven't been
+	pushed, thus when need be, the push can be
+	made.
