@@ -78,3 +78,20 @@ harder?
 	working from place not immediately reachable,
 	for example working from home would be way
 	more easier using GitHub.
+
+When would you want to make changes in a separate
+branch rather than directly in master? What
+benefits does each approach have?
+
+	When trying out something new, but is not
+	official, or perhaps just creating a new
+	flavour to try out. Doing this to master
+	could be risky or maybe it just doesn't fits
+	there yet. If results are satisfactory in the
+	branch, they can be later on merged with the
+	master branch.
+	
+	Smaller projects may not even need any
+	branches, whereas lager projects having
+	lengthy code becomes difficult to dabble with
+	thus branches are helpful.
