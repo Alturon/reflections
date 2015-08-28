@@ -63,3 +63,18 @@ known state of the remote stored locally?
 	aware of if any commits that haven't been
 	pushed, thus when need be, the push can be
 	made.
+	
+How would you collaborate without using Git or
+GitHub? What would be easier, and what would be
+harder?
+	
+	Not that it would be impossible, but not
+	having GitHub to manage collaboration between
+	people on repositories would be a little
+	harder. Git and GitHub zero-in on conflicts
+	and notify to handle them before proceeding.
+	The Pull request on GitHub is amazingly
+	useful in settings where the developers are
+	working from place not immediately reachable,
+	for example working from home would be way
+	more easier using GitHub.
